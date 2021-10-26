@@ -1,0 +1,15 @@
+{
+  "name": "dice-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:mongo": "npm run start --prefix dice-game-sql",
+    "dev:mongo": "npm run dev --prefix dice-game-sql",
+    "start:sql": "npm run start --prefix dice-game-sql",
+    "dev:sql": "npm run dev --prefix dice-game-sql"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
